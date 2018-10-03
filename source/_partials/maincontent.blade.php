@@ -40,7 +40,7 @@
     <div id="contact" class="bg-white text-center">
         <div class="text-2xl uppercase font-light p-8"><span class="font-bold">Our</span> <span class="border-b-2 border-red-dark">Loc</span>ation</div>
         <div class="w-full">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6996658.988303375!2d-104.568898300226!3d31.100353207871837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas!5e0!3m2!1sen!2sus!4v1538362302281"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108938.92311720832!2d-100.51707746052493!3d31.432268377078156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8657e583a53b7191%3A0x827e3d0b3754c742!2sSan+Angelo%2C+TX!5e0!3m2!1sen!2sus!4v1538536355203"
                 width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
