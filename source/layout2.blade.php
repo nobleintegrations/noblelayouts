@@ -2,8 +2,9 @@
 
 @section('body')
     <div id="home" class="lg:w-4/5 w-full bg-white mx-auto container shadow-lg">
-        <div class="flex flex-col justify-between font-light py-4 bg-red-dark items-center text-white md:flex-row">
-            <div class="flex items-center text-sm px-4 mb-4 md:mb-0 md:text-base">
+        {{-- Header toolbar --}}
+        <div class="flex justify-between font-light py-4 bg-red-dark items-center text-white md:flex-row">
+            <div class="flex items-center text-sm px-4 md:text-base">
                 <svg xmlns="http://www.w3.org/2000/svg" class="fill-current mr-2 h-4 w-4" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg>
                 <div><a class="text-white no-underline hover:underline" href="tel:(555) 555-5555">(555) 555-5555</a></div>
             </div>
@@ -12,13 +13,14 @@
                 <div><a class="text-white no-underline hover:underline" href="mailto:info@yourdomain.com">info@yourdomain.com</a></div>
             </div>
         </div>
-        <header class="flex justify-between items-center bg-white text-black sticky pin-t border-b-2 border-grey-light lg:pb-8 lg:pt-8">
-            <div class="logo ml-4"><a href="#home"><img style="width:19rem;" src="/assets/images/logo-black.png"></a></div>
-            <nav class="text-xl mt-4 mr-8">
-                <a href="#home" class="item text-black no-underline mx-4 px-4 py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">Home</a>
-                <a href="#services" class="item text-black no-underline mx-4 px-4 py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">Services</a>
-                <a href="#about" class="text-black no-underline mx-4 px-4 py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">About</a>
-                <a href="#contact" class="text-black no-underline mx-4 px-4 py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">Contact</a>
+        {{-- End Header toolbar --}}
+        <header class="flex flex-col md:flex-row justify-between items-center bg-white text-black sticky pin-t border-b-2 border-grey-light lg:pb-8 lg:pt-8">
+            <div class="logo md:ml-4"><a href="#home"><img style="width:19rem;" src="/assets/images/logo-black.png"></a></div>
+            <nav class="text-xl flex md:text-xl mt-0 md:mt-4 md:mr-4 xl:mr-8 xl:text-2xl font-light">
+                <a href="#home" class="item text-black no-underline lg:mx-4 px-4 py-2 md:py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">Home</a>
+                <a href="#services" class="item text-black no-underline lg:mx-4 px-4 py-2 md:py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">Services</a>
+                <a href="#about" class="text-black no-underline lg:mx-4 px-4 py-2 md:py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">About</a>
+                <a href="#contact" class="text-black no-underline lg:mx-4 px-4 py-2 md:py-4 rounded hover:bg-red-dark hover:text-white hover:border-red-dark">Contact</a>
             </nav>
         </header>
         <div class="flex flex-col layout1-hero text-center justify-center">
