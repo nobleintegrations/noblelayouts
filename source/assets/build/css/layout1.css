@@ -651,21 +651,6 @@ table {
   }
 }
 
-.layout1-hero {
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(183, 0, 24, .3)), to(rgba(183, 0, 24, .3))), url("../../images/hero.jpg");
-  background: linear-gradient(rgba(183, 0, 24, .3), rgba(183, 0, 24, .3)), url("../../images/hero.jpg");
-  height: 400px;
-}
-
-@media only screen and (max-width: 767px) {
-  .layout1-hero {
-    height: 250px;
-  }
-}
-
 .list-reset {
   list-style: none;
   padding: 0;
