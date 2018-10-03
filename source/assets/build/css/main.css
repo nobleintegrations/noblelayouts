@@ -666,6 +666,26 @@ table {
   }
 }
 
+.layout3-hero {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(183, 0, 24, .3)), to(rgba(183, 0, 24, .3))), url("../../images/hero.jpg");
+  background: linear-gradient(rgba(183, 0, 24, .3), rgba(183, 0, 24, .3)), url("../../images/hero.jpg");
+  height: 600px;
+}
+
+@media only screen and (max-width: 767px) {
+  .layout3-hero {
+    height: 250px;
+  }
+}
+
+.layout3-header-toolbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .2)), to(rgba(0, 0, 0, .2)));
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+}
+
 .list-reset {
   list-style: none;
   padding: 0;

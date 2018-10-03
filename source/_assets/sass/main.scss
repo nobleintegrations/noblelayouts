@@ -13,4 +13,25 @@
         height: 250px;
     }
 }
+
+.layout3-hero {
+    @apply .bg-top .bg-no-repeat .bg-cover;
+    background: 
+        linear-gradient(
+            rgba(183, 0, 24, 0.30), 
+            rgba(183, 0, 24, 0.30)
+        ),
+        url('../../images/hero.jpg');
+    height: 600px;
+    @media only screen and (max-width: 767px) {
+        height: 250px;
+    }
+}
+.layout3-header-toolbar {
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.2), 
+            rgba(0, 0, 0, 0.2)
+        );
+}
 @tailwind utilities;
