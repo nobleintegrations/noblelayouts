@@ -18,5 +18,8 @@
         "tailwindcss": "^0.6.6",
         "webpack-watch": "^0.2.0",
         "yargs": "^4.6.0"
+    },
+    "dependencies": {
+        "vue-smooth-scroll": "^1.0.13"
     }
 }

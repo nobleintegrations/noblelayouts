@@ -16,10 +16,10 @@
             <header class="flex flex-col md:flex-row justify-between items-center text-black md:mt-2 lg:pb-8">
                 <div class="logo md:ml-4"><a href="#home"><img style="width:19rem;" src="/assets/images/logo-white.png"></a></div>
                 <nav class="text-xl mt-4 md:mr-4 lg:mr-8 xl:mr-12">
-                    <a href="#home" class="item text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">Home</a>
-                    <a href="#about" class="item text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">About</a>
-                    <a href="#services" class="item text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">Services</a>
-                    <a href="#contact" class="text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">Contact</a>
+                    <a href="#home" v-smooth-scroll="{ duration: 1500, offset: 0 }" class="text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">Home</a>
+                    <a href="#services" v-smooth-scroll="{ duration: 1500, offset: 10 }" class="text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">Services</a>
+                    <a href="#about" v-smooth-scroll="{ duration: 1500, offset: 10 }" class="text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">About</a>
+                    <a href="#contact" v-smooth-scroll="{ duration: 1500, offset: 10 }" class="text-white no-underline xl:mx-4 px-4 py-4 rounded hover:bg-white hover:text-red-dark hover:border-red-dark">Contact</a>
                 </nav>
             </header>
             <div class="flex flex-col text-center justify-center mt-20">

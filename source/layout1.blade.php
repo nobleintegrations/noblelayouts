@@ -6,12 +6,12 @@
             <div class="logo text-center lg:-m-20 block"><a href="#home"><img style="width:19rem;" src="/assets/images/logo-black.png"></a></div>
             <nav class="flex nav-scroll-items text-center justify-center mb-2 lg:px-4">
                 <div class="nav-left flex flex-row no-underline font-medium tracking-wide md:text-xl lg:flex-1 lg:justify-start lg:px-4 xl:ml-4">
-                    <a href="#home" v-navscroll="{ active: 'active-element' }" class="item text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:p-4 scrollactive-item">Home</a>
-                    <a href="#services" v-navscroll="{ active: 'active-element' }" class="item text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:ml-4 lg:p-4 xl:ml-12 scrollactive-item">Services</a>
+                    <a href="#home" v-smooth-scroll="{ duration: 1500, offset: -180 }" class="text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:p-4 scrollactive-item">Home</a>
+                    <a href="#services" v-smooth-scroll="{ duration: 1500, offset: -180 }" class="text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:ml-4 lg:p-4 xl:ml-12 scrollactive-item">Services</a>
                 </div>
                 <div class="nav-right flex flex-row no-underline font-medium tracking-wide md:text-xl lg:justify-end lg:flex-1 xl:mr-4">
                     <a href="#about" v-smooth-scroll="{ duration: 1500, offset: -180 }" class="text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:p-4 lg:mr-4 xl:mr-12 scrollactive-item">About</a>
-                    <a href="#contact" v-smooth-scroll="{ duration: 1500, offset: -160 }" class="text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:p-4 scrollactive-item">Contact</a>
+                    <a href="#contact" v-smooth-scroll="{ duration: 1500, offset: -180 }" class="text-black no-underline px-4 py-2 rounded hover:bg-red-dark hover:text-white hover:border-red-dark lg:p-4 scrollactive-item">Contact</a>
                 </div>
             </nav>
         </header>
