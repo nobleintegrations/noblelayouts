@@ -10,30 +10,42 @@
         </div>
         <div class="flex flex-col bg-white container px-8 pt-8 justify-between items-center md:flex-row">
             <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
-                <a class="no-underline text-grey-darker hover:text-noble-indigo" href="/layout1"><p class="text-center pb-4 uppercase tracking-wide">Layout 1</p></a>
-                <a href="/layout1"><img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout1-thumb.png"></a>
+                <a class="no-underline text-grey-darker hover:text-noble-indigo hover:underline" href="/layout1">
+                    <p class="text-center pb-4 uppercase tracking-wide">Layout 1</p>
+                    <img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout1-thumb.png">
+                </a>
             </div>
             <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
-                <a class="no-underline text-grey-darker hover:text-noble-indigo" href="/layout2"><p class="text-center pb-2 uppercase tracking-wide">Layout 2</p>
-                <a href="/layout2"><img class="w-64 shadow-lg" src="/assets/images/layout2-thumb.png"></a>
+                <a class="no-underline text-grey-darker hover:text-noble-indigo hover:underline" href="/layout2">
+                    <p class="text-center pb-4 uppercase tracking-wide">Layout 2</p>
+                    <img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout2-thumb.png">
+                </a>
             </div>
             <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
-                <a class="no-underline text-grey-darker hover:text-noble-indigo" href="/layout3"><p class="text-center pb-2 uppercase tracking-wide">Layout 3</p>
-                <a href="/layout3"><img class="w-64 shadow-lg" src="/assets/images/layout3-thumb.png"></a>
+                <a class="no-underline text-grey-darker hover:text-noble-indigo hover:underline" href="/layout3">
+                    <p class="text-center pb-4 uppercase tracking-wide">Layout 3</p>
+                    <img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout3-thumb.png">
+                </a>
             </div>
         </div>
         <div class="flex flex-col bg-white container px-8 pt-8 justify-between items-center md:flex-row">
             <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
-                <a class="no-underline text-grey-darker hover:text-noble-indigo" href="/layout1-fullscreen"><p class="text-center pb-2 uppercase tracking-wide">Layout 1 Fullscreen</p>
-                <a href="/layout1-fullscreen"><img class="w-64 shadow-lg" src="/assets/images/layout1-full-thumb.png"></a>
+                <a class="no-underline text-grey-darker hover:text-noble-indigo hover:underline" href="/layout1-fullscreen">
+                    <p class="text-center pb-4 uppercase tracking-wide">Layout 1 Fullscreen</p>
+                    <img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout1-full-thumb.png">
+                </a>
             </div>
             <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
-                <a class="no-underline text-grey-darker hover:text-noble-indigo" href="/layout2-fullscreen"><p class="text-center pb-2 uppercase tracking-wide">Layout 2 Fullscreen</p>
-                <a href="/layout2-fullscreen"><img class="w-64 shadow-lg" src="/assets/images/layout2-full-thumb.png"></a>
+                <a class="no-underline text-grey-darker hover:text-noble-indigo hover:underline" href="/layout2-fullscreen">
+                    <p class="text-center pb-4 uppercase tracking-wide">Layout 2 Fullscreen</p>
+                    <img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout2-full-thumb.png">
+                </a>
             </div>
-            <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
-                <a class="no-underline text-grey-darker hover:text-noble-indigo" href="/layout3-fullscreen"><p class="text-center pb-2 uppercase tracking-wide">Layout 3 Fullscreen</p>
-                <a href="/layout3-fullscreen"><img class="w-64 shadow-lg" src="/assets/images/layout3-full-thumb.png"></a>
+           <div class="p-8 mb-4 md:w-1/3 md:mr-4 hover:bg-grey-lightest text-center">
+                <a class="no-underline text-grey-darker hover:text-noble-indigo hover:underline" href="/layout3-fullscreen">
+                    <p class="text-center pb-4 uppercase tracking-wide">Layout 3 Fullscreen</p>
+                    <img class="w-64 shadow-lg border-0 hover:border-2 border-red-dark" src="/assets/images/layout3-full-thumb.png">
+                </a>
             </div>
         </div>
         <footer class="bg-noble-indigo h-16 border-t border-noble-yellow">
