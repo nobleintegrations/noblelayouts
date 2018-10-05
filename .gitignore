@@ -4,3 +4,4 @@
 .DS_STORE
 source/.DS_STORE
 source/*/.DS_STORE
+/build_production/
