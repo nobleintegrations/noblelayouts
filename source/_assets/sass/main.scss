@@ -1,5 +1,13 @@
 @tailwind preflight;
 @tailwind components;
+h2.title {
+    font-family: 'Pacifico', cursive;
+    @apply .text-noble-yellow .text-3xl .font-hairline;
+}
+.home-bg {
+    background-color: #eeeeee;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c9c9c9' fill-opacity='0.62' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
 .layout1-hero {
     @apply .bg-top .bg-no-repeat .bg-cover;
     background: 
@@ -37,6 +45,20 @@
         ),
         url('../../images/hero.jpg');
     height: 600px;
+    @media only screen and (max-width: 767px) {
+        height: 450px;
+    }
+}
+.layout3-hero-full {
+    @apply .bg-top .bg-no-repeat .bg-cover;
+    background: 
+        linear-gradient(
+            rgba(183, 0, 24, 0.30), 
+            rgba(183, 0, 24, 0.30)
+        ),
+        url('../../images/hero-full.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
     @media only screen and (max-width: 767px) {
         height: 450px;
     }

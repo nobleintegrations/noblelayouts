@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.layout-master')
 
 @section('body')
     <div id="home" class="w-full bg-white">
@@ -34,4 +34,5 @@
         @include('_partials.maincontent-full')
         @include('_partials.footer-full')
     </div>
+    @include('_partials.sticky-footer')
 @endsection

@@ -79,6 +79,7 @@ let colors = {
   'yellow-light': '#fff382',
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
+  'noble-yellow': '#faa519',
 
   'green-darkest': '#0f2f21',
   'green-darker': '#1a4731',
@@ -111,6 +112,7 @@ let colors = {
   'indigo-light': '#7886d7',
   'indigo-lighter': '#b2b7ff',
   'indigo-lightest': '#e6e8ff',
+  'noble-indigo': '#221e5f',
 
   'purple-darkest': '#21183c',
   'purple-darker': '#382b5f',

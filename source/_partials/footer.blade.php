@@ -30,7 +30,7 @@
                             <button class="shadow bg-red-dark text-white font-bold py-2 px-4 rounded w-full hover:bg-red-light focus:shadow-outline focus:outline-none"
                                 type="submit">
                                             Send
-                                        </button>
+                            </button>
                         </div>
                     </form>
                 </div>
