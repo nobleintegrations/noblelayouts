@@ -54,14 +54,14 @@
                     <div class="">
                         <form name="contact" class="flex flex-col md:flex-row" method="POST" netlify>
                             <div class="md:w-1/3 md:flex-1 md:mr-2">
-                                <input class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight mb-2 focus:outline-none focus:bg-white focus:border-green"
+                                <input class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight mb-2 focus:outline-none focus:bg-white focus:border-noble-yellow"
                                     id="inline-full-name" name="name" type="text" placeholder="Full Name">
-                                <input class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none mb-2 focus:bg-white focus:border-green"
+                                <input class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none mb-2 focus:bg-white focus:border-noble-yellow"
                                     id="inline-full-name" name="email" type="text" placeholder="Email">
                             </div>
                             <div class="md:w-2/3 md:flex-1">
                                 <textarea class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none
-                                            focus:bg-white focus:border-green sm:mb-2 md:mb-1" name="message" rows="3" placeholder="Message"></textarea>
+                                            focus:bg-white focus:border-noble-yellow sm:mb-2 md:mb-1" name="message" rows="3" placeholder="Message"></textarea>
                                 <button class="shadow bg-noble-yellow text-noble-indigo font-bold py-2 px-4 rounded w-full hover:bg-white focus:shadow-outline focus:outline-none"
                                     type="submit">
                                                 Send
